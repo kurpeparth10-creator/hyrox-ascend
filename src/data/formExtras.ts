@@ -1,0 +1,21 @@
+// Coaching cue + common mistakes per exercise (id -> [cue, mistakes separated by |]).
+export const extras:Record<string,[string,string]>={
+"back-squat":["Brace → sit → drive","Knees collapsing inward|Losing a braced spine|Heels lifting"],
+"tibialis-raise":["Toes up, lower slow","Rushing reps|Bending the knees to cheat|Using a partial range"],
+"deadlift":["Push the floor away","Rounding the back|Bar drifting away from the legs|Jerking the bar off the floor"],
+"triceps-dip":["Shoulders down, elbows back","Shrugging the shoulders|Flaring the elbows|Going deeper than the shoulders tolerate"],
+"reverse-sled-drag":["Short steps, tall chest","Long reaching steps|Collapsing the back|Locking the knees"],
+"poliquin-step-down":["Slow down, soft touch","Knee caving inward|Hips shifting sideways|Bouncing off the floor"],
+"seated-rope-pull":["Elbows drive back","Yanking with the torso|Arms-only pulling|Letting slack build in the rope"],
+"neutral-grip-chin-up":["Chest up, elbows down","Swinging or kipping|Half reps|Shrugged shoulders"],
+"hurdle-hops":["Quick and light","Landing stiff-legged|Knees caving on landing|Continuing when fatigued and sloppy"],
+"explosive-push-ups":["Fast up, soft land","Sagging hips|Flared elbows|Landing with locked elbows"],
+"front-squat":["Elbows up","Elbows dropping|Torso collapsing forward|Heels lifting"],
+"dumbbell-row":["Elbow to hip","Rounding the back|Twisting the torso|Shrugging the shoulder"],
+"single-arm-farmer-carry":["Tall, tight, steady","Leaning toward the load|Shrugging|Rushing the steps"],
+"snatch":["Pull, then punch under","Pulling with the arms early|Bar swinging away from the body|Soft overhead lockout (learn with a light load or coach)"],
+"front-foot-elevated-split-squat":["Drop straight down","Front knee collapsing|Torso folding forward|Stance too short to balance"],
+"dumbbell-walking-lunge":["Long step, tall chest","Steps too short|Front knee caving|Rushing between steps"],
+"clean":["Jump, shrug, elbows through","Pulling with the arms|Bar swinging out|Catching with low elbows"],
+"push-press":["Dip, drive, lock","Leaning back|Dipping forward|Pressing before the legs drive"],
+"nordic-hamstring-curl":["Slow, straight, catch","Folding at the hips|Dropping too fast|Poorly anchored ankles"]};
